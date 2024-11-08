@@ -47,10 +47,15 @@ const Forecast = () => {
           }}
         />
         <div className="forecast-text">
-          <h1>Flood</h1>
-          <h2>
-            <Timee />
-          </h2>
+          <h1>
+            <div className="fore-status">
+              Flood
+            </div>
+            <div className="fore-time">
+              <Timee />
+            </div>
+          </h1>
+          <h2>Vientiane, Lao PDR</h2>
         </div>
         <div className="forecast-icons">
           <WaterIcon
