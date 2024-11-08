@@ -1,0 +1,47 @@
+#forecast .weather-forecast {
+  background: linear-gradient(to bottom, #1e90ff, #4169e1);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 1px 2px 8px black;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  opacity: 0.6;
+}
+
+.tab.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
+#forecast .weather-forecast .forecast-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.forecast-item {
+  text-align: center;
+}
+
+.time, .measurement {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.icon {
+  font-size: 24px;
+}
+

@@ -1,0 +1,35 @@
+#forecast {
+  background: linear-gradient(to bottom, #1e90ff, #4169e1);;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  width: 650px;
+  height: 450px;
+  color: white;
+  box-shadow: 1px 2px 8px black;
+}
+
+#forecast .forecast-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#forecast .forecast-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#forecast .forecast-container .forecast-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+#forecast .forecast-container .forecast-icons p {
+  padding-top: 10px;
+  margin: 5px;
+}
